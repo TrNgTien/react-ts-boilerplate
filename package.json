@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "local": "vite --mode:dev-local",
-    "prebuild": "sh clean.sh",
+    "prebuild": "sh clean-build.sh",
     "build": "tsc && vite build",
     "build:dev": "tsc && vite build --mode development",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
